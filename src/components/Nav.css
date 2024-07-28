@@ -1,0 +1,29 @@
+header{
+
+  background-color: rgb(48, 48, 48);
+  display: flex;
+  justify-content: center;
+
+}
+
+ul{
+  display: flex; 
+  width: 100%;
+  list-style: none;
+  justify-content: space-around;
+
+}
+
+li{
+ padding: 2%;
+}
+li a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 2vw;
+}
+
+.active{
+  font-weight: bold;
+  font-style: italic;
+}
